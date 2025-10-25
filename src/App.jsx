@@ -6,7 +6,7 @@ import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/s201-insem1-2300031193">
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
